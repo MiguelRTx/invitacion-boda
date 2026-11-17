@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#52634f">
+  <meta name="description" content="Miguel y Mariana · 28 de septiembre de 2028. Un sí, una vida, mil aventuras. Te invitamos a celebrar nuestra boda.">
+  <title>Miguel & Mariana · Nuestra boda</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Great+Vibes&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="assets/monogram.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#historia">Saltar al contenido</a>
+  <main id="contenido">
+  <div class="opening" id="inicio">
+    <img class="botanical botanical-hero" src="assets/botanical.svg" alt="" aria-hidden="true">
+    <img class="botanical botanical-corner" src="assets/botanical.svg" alt="" aria-hidden="true">
+    <header class="header">
+      <a class="monogram" href="#inicio" aria-label="Miguel y Mariana, inicio">M<span>&</span>M</a>
+      <button class="menu-toggle" type="button" aria-controls="navigation" aria-expanded="false" aria-label="Abrir menú"><span></span><span></span></button>
+      <nav class="navigation" id="navigation" aria-label="Navegación principal">
+        <a href="#historia">Nuestra historia</a>
+        <a href="#boda">La boda</a>
+        <a href="#lugar">El lugar</a>
+        <a class="nav-rsvp" href="#asistencia">Confirmar asistencia <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+      <section class="hero section-width" aria-labelledby="hero-title">
+        <figure class="hero-photo reveal">
+          <div class="photo-arch"><img src="assets/img2.jpeg" alt="Miguel y Mariana juntos en el hotel" fetchpriority="high" width="3024" height="4032"></div>
+          <figcaption>UNA CELEBRACIÓN HECHA DE AMOR</figcaption>
+        </figure>
+        <div class="hero-copy reveal">
+          <p class="eyebrow">CON VOS, TODO ES MÁS LINDO</p>
+          <p class="announcement">¡Nos casamos!</p>
+          <h1 class="script-name" id="hero-title"><span>Miguel</span><span><i>&</i> Mariana</span></h1>
+          <div class="small-rule" aria-hidden="true"></div>
+          <p class="serif-italic hero-motto">Un sí, una vida, mil aventuras.</p>
+          <p class="intro">Con mucha alegría, te invitamos a celebrar<br class="desktop-break"> el comienzo de nuestra nueva historia.</p>
+          <p class="hero-date" data-wedding-date>28 de septiembre de 2028</p>
+          <a class="button button-solid" href="#asistencia">Confirmar asistencia <span aria-hidden="true">↗</span></a>
+          <a class="scroll-cue" href="#historia">SEGUÍ NUESTRA HISTORIA <span aria-hidden="true">↓</span></a>
+        </div>
+      </section>
+  </div>
+
+      <section class="story" id="historia" aria-labelledby="story-title">
+        <div class="section-width story-grid">
+          <div class="reveal"><p class="eyebrow">01 / NUESTRA HISTORIA</p><h2 id="story-title">Elegirnos,<br>todos los días.</h2><svg class="story-sprig" viewBox="0 0 120 50" fill="none" aria-hidden="true"><path d="M8 42C45 42 65 25 111 8M43 36C25 35 23 24 26 19C37 19 43 26 43 36ZM61 28C51 15 55 6 59 4C68 9 69 17 61 28ZM78 21C87 28 98 24 101 19C92 13 86 17 78 21Z" stroke="currentColor" stroke-width="1"/></svg></div>
+          <div class="story-text reveal"><h3>¿Por qué nos casamos?</h3><p>Porque el amor está en lo simple: en las risas, en los abrazos y en sentir que el hogar es una persona.</p><p>Hoy elegimos seguir construyendo nuestra vida juntos y celebrar ese sí con quienes más queremos.</p><p class="serif-italic signature">Con amor, Miguel & Mariana</p></div>
+        </div>
+      </section>
+
+      <section class="wedding section-width" id="boda" aria-labelledby="wedding-title">
+        <div class="section-heading reveal"><p class="eyebrow">02 / RESERVÁ EL DÍA</p><h2 id="wedding-title">Lo mejor está por venir</h2><p class="serif-italic date-heading">28 de septiembre de 2028</p><p class="eyebrow date-weekday">JUEVES · NUESTRO GRAN DÍA</p></div>
+        <div class="countdown reveal" aria-label="Cuenta regresiva hasta el día de la boda">
+          <div><span id="count-days">—</span><span>DÍAS</span></div><span class="count-separator" aria-hidden="true">:</span><div><span id="count-hours">—</span><span>HORAS</span></div><span class="count-separator" aria-hidden="true">:</span><div><span id="count-minutes">—</span><span>MINUTOS</span></div><span class="count-separator" aria-hidden="true">:</span><div><span id="count-seconds">—</span><span>SEGUNDOS</span></div>
+        </div>
+        <p class="countdown-note" id="countdown-note">Cada vez falta menos para celebrar juntos.</p>
+        <button class="text-link calendar-link" id="calendar-button" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="16" height="15" rx="2"/><path d="M8 3v6m8-6v6M4 12h16m-8 3v3m-1.5-1.5h3"/></svg> Agregar a mi calendario <span aria-hidden="true">↗</span></button>
+        <div class="timeline">
+          <article class="reveal"><span class="roman">I</span><h3>La ceremonia</h3><p>El comienzo de nuestro sí.</p><span class="time-detail" data-event="ceremony">Horario por confirmar</span></article>
+          <article class="reveal"><span class="roman">II</span><h3>El brindis</h3><p>Por todo lo que vendrá.</p><span class="time-detail" data-event="toast">Horario por confirmar</span></article>
+          <article class="reveal"><span class="roman">III</span><h3>La fiesta</h3><p>Bailar, reír y celebrar.</p><span class="time-detail" data-event="party">Horario por confirmar</span></article>
+        </div>
+      </section>
+
+      <section class="place" id="lugar" aria-labelledby="place-title">
+        <div class="section-width place-grid">
+          <figure class="place-photo reveal"><div class="photo-arch"><img src="assets/img1.jpeg" alt="Miguel con camisa azul y Mariana con blusa blanca, abrazados y sonriendo" width="3024" height="4032" loading="lazy"></div><figcaption>EL MEJOR LUGAR SIEMPRE ES CON VOS</figcaption></figure>
+          <div class="place-copy reveal"><p class="eyebrow">03 / EL LUGAR</p><h2 id="place-title">Un lugar para<br>encontrarnos</h2><p class="serif-italic subheading">El escenario de nuestro sí.</p><p>Estamos preparando un espacio especial para compartir este día con vos.</p><div class="location-detail"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg><div><p class="location-name" id="location-name">Nos encontramos acá</p><p>Seguí la ubicación para llegar.</p></div></div><a class="button button-outline" id="maps-link" href="https://share.google/y7V6vTatchzsk5RY6" target="_blank" rel="noopener noreferrer">Ver ubicación en GPS <span aria-hidden="true">↗</span><span class="sr-only"> (abre una nueva pestaña)</span></a><p class="fine-print">Abrí el mapa y prepará el camino hacia nuestro gran día.</p></div>
+        </div>
+      </section>
+
+      <section class="music section-width reveal" aria-labelledby="music-title"><div class="music-symbol" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M20 33V12l20-4v21M20 18l20-4"/><ellipse cx="13" cy="34" rx="7" ry="5" transform="rotate(-15 13 34)"/><ellipse cx="33" cy="30" rx="7" ry="5" transform="rotate(-15 33 30)"/></svg></div><div class="music-copy"><p class="eyebrow">UN POQUITO DE NOSOTROS</p><h2 id="music-title">El amor también suena así.</h2><p>Un video para acompañar esta historia.</p></div><a class="button button-outline" id="video-link" href="https://www.youtube.com/watch?v=YwodhCjFbQ8&list=RDYwodhCjFbQ8&start_radio=1" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 11 7-11 7Z"/></svg> Ver en YouTube <span aria-hidden="true">↗</span><span class="sr-only"> (abre una nueva pestaña)</span></a></section>
+
+      <section class="rsvp section-width" id="asistencia" aria-labelledby="rsvp-title">
+        <div class="rsvp-copy reveal"><p class="eyebrow">04 / CONFIRMÁ TU ASISTENCIA</p><h2 id="rsvp-title">El día no sería<br>igual sin vos.</h2><p>Nos encantaría que seas parte de este recuerdo.<br>Contanos si vas a acompañarnos.</p><p class="serif-italic rsvp-quote">Un sí para nosotros.<br>Un lugar para vos.</p><p class="thanks">Gracias por ser parte de nuestra historia.</p></div>
+        <form class="rsvp-form reveal" id="rsvp-form">
+          <h3>¿Nos acompañás?</h3><p class="form-intro">Completá tus datos para celebrar juntos.</p>
+          <div class="field"><label for="guest-name">Nombre y apellido <span aria-hidden="true">*</span></label><input id="guest-name" name="name" autocomplete="name" placeholder="Tu nombre y apellido" required maxlength="120"></div>
+          <div class="field"><label for="guest-email">Correo electrónico <span class="optional">(opcional)</span></label><input id="guest-email" name="email" type="email" autocomplete="email" placeholder="tu@email.com" maxlength="180"></div>
+          <fieldset class="attendance"><legend>¿Vas a asistir? <span aria-hidden="true">*</span></legend><div class="attendance-options"><label><input type="radio" name="attendance" value="yes" checked required><span><span class="radio-dot"></span>Sí, ¡allí estaré!</span></label><label><input type="radio" name="attendance" value="no"><span><span class="radio-dot"></span>No podré ir</span></label></div></fieldset>
+          <div class="field" id="guests-field"><label for="guest-count">Cantidad de personas <span class="optional">(incluyéndote)</span></label><input id="guest-count" name="guests" type="number" value="1" min="1" max="99" step="1" required inputmode="numeric"></div>
+          <div class="field"><label for="guest-message">Alimentación o algún mensaje <span class="optional">(opcional)</span></label><textarea id="guest-message" name="message" rows="3" placeholder="Contanos si necesitás un menú especial o dejanos unas palabras…" maxlength="1500"></textarea></div>
+          <button class="button button-solid submit-button" type="submit">Confirmar asistencia <span aria-hidden="true">↗</span></button><p class="form-note"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20l1.1-4.8a8.5 8.5 0 1 1 16.4-3.7Z"/><path d="M8 7c0 4 2 6 6 7l2-2-3-1-1 1-2-2 1-1-1-2Z"/></svg> Prepararemos tu respuesta para enviarla por WhatsApp.</p>
+          <noscript><p>Para confirmar sin JavaScript, escribinos al <a href="https://wa.me/59169051720" target="_blank" rel="noopener noreferrer">+591 69051720 por WhatsApp</a>.</p></noscript>
+        </form>
+      </section>
+    </main>
+    <footer class="footer"><img class="botanical botanical-footer" src="assets/botanical.svg" alt="" aria-hidden="true"><div class="footer-content"><p class="eyebrow">LO MÁS LINDO ES COMPARTIRLO</p><p class="footer-names">Miguel <span>&</span> Mariana</p><p class="serif-italic">¡Te esperamos con el corazón lleno!</p><p class="eyebrow footer-end">CON AMOR, PARA SIEMPRE.</p></div></footer>
+    <dialog id="confirmation-dialog" class="confirmation-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-description"><button class="dialog-close" type="button" aria-label="Cerrar mensaje">×</button><p class="eyebrow">GRACIAS POR RESPONDER</p><h2 id="dialog-title">Tu mensaje está listo.</h2><p id="dialog-description">Solo falta enviarlo por WhatsApp a Miguel y Mariana para que reciban tu respuesta.</p><pre id="confirmation-preview"></pre><a class="button button-solid" id="whatsapp-link" href="https://wa.me/59169051720" target="_blank" rel="noopener noreferrer">Enviar por WhatsApp <span aria-hidden="true">↗</span></a><button class="text-link" id="copy-confirmation" type="button">Copiar respuesta</button><p id="copy-status" class="copy-status" role="status"></p></dialog>
+</body>
+</html>
