@@ -5,7 +5,7 @@ window.WEDDING_CONFIG = Object.freeze({
   date: "2028-09-28",
   timezoneOffset: "-04:00",
   whatsapp: "59169051720", // Código de país + número, sin espacios ni +.
-  mapsUrl: "https://share.google/y7V6vTatchzsk5RY6",
+  mapsUrl: "https://maps.app.goo.gl/sJjuCVCzfqUCqUdQ7",
   videoUrl: "https://www.youtube.com/watch?v=YwodhCjFbQ8&list=RDYwodhCjFbQ8&start_radio=1",
   // Completá el nombre del lugar y los horarios cuando estén definidos.
   locationName: "Nos encontramos acá",
